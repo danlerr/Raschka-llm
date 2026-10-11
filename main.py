@@ -3,7 +3,7 @@ from SimpleTokenizerV2 import SimpleTokenizerV2
 import re
 
 #load the the-verdict.txt file
-with open("the-verdict.txt", "r", encoding="utf-8") as f:
+with open("data/the-verdict.txt", "r", encoding="utf-8") as f:
     raw_text = f.read()
 
 # L'obiettivo è generare degli IDs dati i token (parole) dato del testo 
